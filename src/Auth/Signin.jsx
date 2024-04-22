@@ -4,6 +4,10 @@ import JazzyLogo from "../assets/jazzy icon.svg";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import { useForm } from "react-hook-form";
+import { PiEyeSlashThin } from "react-icons/pi";
+import { PiEyeThin } from "react-icons/pi";
+
+
 
 const SIgnin = () => {
   const [isReveal, setIsReveal] = useState(false);
@@ -76,7 +80,9 @@ const SIgnin = () => {
                 role="button"
                 onClick={handleToggle}
               >
-                {isReveal ? "hide" : "show"}
+                {isReveal ? <PiEyeThin />
+ : <PiEyeSlashThin />
+}
               </p>
             </FloatingLabel>
 

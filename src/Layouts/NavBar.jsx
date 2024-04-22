@@ -8,7 +8,7 @@ import cartLogo from '../assets/New cart.svg';
 import AuthDropDown from '../Components/AuthDropDown';
 import { GoChevronDown } from "react-icons/go";
 import { GoChevronUp } from "react-icons/go";
-import { Bag } from '../Components/Bag';
+import Bag from '../Components/Bag';
 // import { useState } from 'react';
 
 
